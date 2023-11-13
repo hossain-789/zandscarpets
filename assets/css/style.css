@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parallax {
+    background-image: url("../image/parralex/background_image.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    min-height: 500px;
+}
+
+.parallax_title {
+    text-align: center;
+    font-size: 30px;
+}
+.parallax_para{
+    font-size: 15px;
+}
+
+
+/* doctor__page */
+.doctor-inner {
+    overflow: hidden;
+}
+
+.doctor-inner img {
+    width: 100%;
+    height: 150%;
+    transition: 0.5s ease;
+}
+
+.doctor-inner img:hover {
+    transform: scale(1.3);
+}
