@@ -54,8 +54,6 @@ a {
 }
 
 /* featured-product */
-
-
 .ProInfoBox {
     position: absolute;
     left: 0;
@@ -79,11 +77,6 @@ a {
 .new-arrival-img img:hover {
     transform: scale(1.1);
 }
-
-
-
-
-
 .product-small-img img {
     height: 77px;
     cursor: pointer;
@@ -91,6 +84,73 @@ a {
     margin-inline: 8px;
 
 }
+
+
+/* Explore Our Work */
+.our-work-head{
+    margin-left: 41px;
+    margin-top: -11rem;
+    width: 24rem;
+    position: absolute;
+}
+
+
+/* testimonials */
+.testi-bg-image{
+    background-image: url("https://www.zandscarpets.com/images/common-contents/testimonial_bg_image.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testi-img img{
+    object-fit: cover;
+}
+
+
+.countries{
+    font-size: 20px;
+}
+
+.countries span{
+    margin: 10px;
+    color: #023260;
+}
+
+
+.looking-bg-image{
+    background-image: url("https://www.zandscarpets.com/assets/images/BGMap.png");
+    width: 100%;
+}
+
+
+
+
+.parallax-export {
+    background-image: url("https://www.zandscarpets.com/assets/images/SeoSec.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer */
@@ -149,3 +209,6 @@ a {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
+
+
+
