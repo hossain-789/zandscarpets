@@ -77,6 +77,7 @@ a {
 .new-arrival-img img:hover {
     transform: scale(1.1);
 }
+
 .product-small-img img {
     height: 77px;
     cursor: pointer;
@@ -87,7 +88,7 @@ a {
 
 
 /* Explore Our Work */
-.our-work-head{
+.our-work-head {
     margin-left: 41px;
     margin-top: -11rem;
     width: 24rem;
@@ -96,7 +97,7 @@ a {
 
 
 /* testimonials */
-.testi-bg-image{
+.testi-bg-image {
     background-image: url("https://www.zandscarpets.com/images/common-contents/testimonial_bg_image.jpg");
     min-height: 500px;
     background-attachment: fixed;
@@ -105,27 +106,25 @@ a {
     background-size: cover;
 }
 
-.testi-img img{
+.testi-img img {
     object-fit: cover;
 }
 
 
-.countries{
+.countries {
     font-size: 20px;
 }
 
-.countries span{
+.countries span {
     margin: 10px;
     color: #023260;
 }
 
 
-.looking-bg-image{
+.looking-bg-image {
     background-image: url("https://www.zandscarpets.com/assets/images/BGMap.png");
     width: 100%;
 }
-
-
 
 
 .parallax-export {
@@ -142,6 +141,58 @@ a {
     min-height: 500px;
 }
 
+
+
+/* product-section */
+.product-banner-bg-img {
+    background-image: url("https://www.zandscarpets.com/images/products/banner_imagec05Wdzk5dUZlSm0yOUY1ckdWT0Z1dz09.jpg");
+    background-position: center;
+    min-height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.product-banner-head {
+    margin-top: 170px;
+}
+
+.landscaping-product {
+    background: #023260 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    padding: 10px 22px !important;
+    min-height: 45px;
+}
+
+.product-accordion li {
+    line-height: 30px;
+
+}
+
+.product-accordion a {
+    line-height: 35px;
+    font-size: 14px;
+    color: #5d5d5d;
+}
+
+.data-product {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    padding: 10px 22px !important;
+    min-height: 45px;
+    width: 163%;
+}
+
+
+.OurSpecialities li, .txt {
+    font-size: 12px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
 
 
 
@@ -209,6 +260,3 @@ a {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
-
-
-
