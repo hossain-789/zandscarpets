@@ -272,7 +272,44 @@ p {
 .mainHead-form{
     background: transparent;
 }
+/* contact-section */
+/* services-section */
+.services-btn-bg {
+    background-image: url("https://www.zandscarpets.com/images/banner-images/imageUUdYa3VnN1VZaWNSVFVUb2lIelh1Zz09.webp");
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.services-descrip{
+    margin-top: 100px;
+
+}
+
+.services-overflow {
+    background-color: rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+}
+
+
+.mainHead-form{
+    background: transparent;
+}
+/* services-section */
+.country-btn-bg {
+    background-image: url("https://www.zandscarpets.com/images/services/background_image.webp");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.country-aline{
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
 
 
 
