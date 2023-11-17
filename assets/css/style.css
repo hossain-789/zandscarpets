@@ -188,15 +188,90 @@ a {
 }
 
 
-.OurSpecialities li, .txt {
+.OurSpecialities li,
+.txt {
     font-size: 12px;
     color: #1a1a1a;
     font-weight: 600;
 }
 
+/* about-section */
+.about-bg-img {
+    background-image: url("https://www.zandscarpets.com/images/banner-images/imagec05Wdzk5dUZlSm0yOUY1ckdWT0Z1dz09.webp");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about-descrip {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 
 
+.carpet-img img {
+    margin: 12px 35px 9px 13px;
+    width: 45%;
+    float: left;
+}
+
+p {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.our-mission-img {
+    background-image: url("https://www.zandscarpets.com/images/about-us/vision_mission_bg_image.jpg");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* about-section */
+
+
+
+
+/* contact-section */
+.contact-bg-img {
+    background-image: url("https://www.zandscarpets.com/images/banner-images/imageV0k0eStLdXpzRTdLWXpDQnVqUVBXUT09.webp");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about-descrip {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.form-btn-bg {
+    background-image: url("https://www.zandscarpets.com/images/contact-info/background_image.webp");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainHead{
+    margin-top: 120px;
+}
+
+.overflow {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+}
+
+
+.mainHead-form{
+    background: transparent;
+}
 
 
 
