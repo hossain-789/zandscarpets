@@ -259,7 +259,7 @@ p {
     background-size: cover;
 }
 
-.mainHead{
+.mainHead {
     margin-top: 120px;
 }
 
@@ -269,9 +269,10 @@ p {
 }
 
 
-.mainHead-form{
+.mainHead-form {
     background: transparent;
 }
+
 /* contact-section */
 /* services-section */
 .services-btn-bg {
@@ -282,7 +283,7 @@ p {
     background-size: cover;
 }
 
-.services-descrip{
+.services-descrip {
     margin-top: 100px;
 
 }
@@ -293,9 +294,10 @@ p {
 }
 
 
-.mainHead-form{
+.mainHead-form {
     background: transparent;
 }
+
 /* services-section */
 .country-btn-bg {
     background-image: url("https://www.zandscarpets.com/images/services/background_image.webp");
@@ -306,15 +308,65 @@ p {
 }
 
 
-.country-aline{
+.country-aline {
     margin-top: 110px;
     margin-bottom: 50px;
 }
 
+/* our-work */
+
+.ourwork-btn-bg {
+    background-image: url("https://www.zandscarpets.com/images/banner-images/imageeUk0RnM2c25pRy8wRUp5dkptQ1ovdz09.webp");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.workinfo {
+    width: 90%;
+    margin-top: -20px;
+}
 
 
+.card-work {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: calc(100% - 47px);
+    padding: 7px 10px;
+    background-image: -moz-linear-gradient(90deg, rgb(248, 248, 248) 0%, rgb(252, 252, 252) 39%, rgb(255, 255, 255) 99%);
+    background-image: -webkit-linear-gradient(90deg, rgb(248, 248, 248) 0%, rgb(252, 252, 252) 39%, rgb(255, 255, 255) 99%);
+}
 
 
+.work-list-img {
+    overflow: hidden;
+}
+
+.work-list-img img {
+    transition: 0.5s ease;
+}
+
+.work-list-img img:hover {
+    transform: scale(1.3);
+}
+/* our-work */
+
+/* releted-work */
+.releted-btn-bg {
+    background-image: url("https://www.zandscarpets.com/images/our-works/banner_imageV0k0eStLdXpzRTdLWXpDQnVqUVBXUT09.webp");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* releted-work */
 
 /* footer */
 
@@ -372,3 +424,5 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
+
+/* footer */
