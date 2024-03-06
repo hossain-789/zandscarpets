@@ -1,0 +1,62 @@
+
+.service_menu {
+    background:
+        #023260;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.service_menu ul {
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background:
+        #023260;
+}
+
+.service_menu ul li {
+    position: relative;
+    z-index: 9999999999;
+}
+
+.service_menu ul li a {
+    display: block;
+    padding: 10px;
+}
+
+/* Style the submenus */
+.service_menu ul li ul {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+}
+
+.service_menu ul ul li {
+    width: max-content;
+    min-width: 100%;
+    max-width: 200px;
+}
+
+.service_menu ul a {
+    all: unset;
+    color:
+        #fff;
+    cursor: pointer;
+}
+
+.service_menu ul a:hover {
+    background:
+        rgba(0, 0, 0, 0.7);
+}
+
+.service_menu ul li:hover>ul {
+    display: flex;
+    /* Show submenus on hover */
+}
+
+/* Style the third-level submenu */
+.service_menu ul ul ul {
+    top: 0;
+    right: 100%;
+}
